@@ -81,17 +81,17 @@ const mockDb = {
 
 	// Initial Student Data
 	students: [
-		{ id: 'student-IT-001', firstName: 'Ayaan', lastName: 'Rahman', email: 'ayaan@school.edu', departmentId: 'dept-1', enrollmentDate: '2024-06-10' },
-		{ id: 'student-BBA-001', firstName: 'Meera', lastName: 'Nair', email: 'meera@school.edu', departmentId: 'dept-2', enrollmentDate: '2024-06-15' },
-		{ id: 'student-IT-002', firstName: 'Rohan', lastName: 'Menon', email: 'rohan@school.edu', departmentId: 'dept-1', enrollmentDate: '2024-07-01' },
-		{ id: 'student-BIO-001', firstName: 'Sara', lastName: 'Thomas', email: 'sara@school.edu', departmentId: 'dept-3', enrollmentDate: '2025-01-05' },
+		{ id: 'student-IT-001', firstName: 'Ayaan', lastName: 'Rahman', email: 'ayaan@eduspot.edu', departmentId: 'dept-1', enrollmentDate: '2024-06-10' },
+		{ id: 'student-BBA-001', firstName: 'Meera', lastName: 'Nair', email: 'meera@eduspot.edu', departmentId: 'dept-2', enrollmentDate: '2024-06-15' },
+		{ id: 'student-IT-002', firstName: 'Rohan', lastName: 'Menon', email: 'rohan@eduspot.edu', departmentId: 'dept-1', enrollmentDate: '2024-07-01' },
+		{ id: 'student-BIO-001', firstName: 'Sara', lastName: 'Thomas', email: 'sara@eduspot.edu', departmentId: 'dept-3', enrollmentDate: '2025-01-05' },
 	] as Student[],
 
 	// Initial Teacher Data
 	teachers: [
-		{ id: 'teacher-IT-001', firstName: 'Dr. Neha', lastName: 'Sharma', email: 'neha@school.edu', departmentId: 'dept-1', specialization: 'Cloud Computing' },
-		{ id: 'teacher-BBA-001', firstName: 'Prof. Vikram', lastName: 'Singh', email: 'vikram@school.edu', departmentId: 'dept-2', specialization: 'Finance' },
-		{ id: 'teacher-BIO-001', firstName: 'Dr. Aisha', lastName: 'Khan', email: 'aisha@school.edu', departmentId: 'dept-3', specialization: 'Genetics' },
+		{ id: 'teacher-IT-001', firstName: 'Dr. Neha', lastName: 'Sharma', email: 'neha@eduspot.edu', departmentId: 'dept-1', specialization: 'Cloud Computing' },
+		{ id: 'teacher-BBA-001', firstName: 'Prof. Vikram', lastName: 'Singh', email: 'vikram@eduspot.edu', departmentId: 'dept-2', specialization: 'Finance' },
+		{ id: 'teacher-BIO-001', firstName: 'Dr. Aisha', lastName: 'Khan', email: 'aisha@eduspot.edu', departmentId: 'dept-3', specialization: 'Genetics' },
 	] as Teacher[],
 
 	// Mock user storage for registration and login
